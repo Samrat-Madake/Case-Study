@@ -1,0 +1,10 @@
+npm init -y
+
+// Runtime dependencies
+npm install express zod
+
+// Dev dependencies
+npm install -D typescript ts-node-dev @types/node @types/express
+
+//Initialize TypeScript
+npx tsc --init
